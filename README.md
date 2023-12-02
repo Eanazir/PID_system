@@ -2,6 +2,14 @@
 
 This project is a PID (Proportional, Integral, Derivative) control system designed to balance a ball on a platform. The system utilizes a Raspberry Pi 3 and servo motors to adjust the platform's angle in real-time, maintaining the ball's position.
 
+## Images
+
+![System Overview](pics/IMG_0102.jpg)
+*System overview with labeled components.*
+
+![Action Shot](pics/IMG_0101.jpg)
+*The PID Ball Balancing System in operation.*
+
 ## Bill of Materials
 
 Below is a list of components used in the PID Ball Balancing System, along with their sources and prices.
@@ -31,11 +39,5 @@ The system's hardware assembly involves mounting the servo motors on the 3D-prin
 
 The PID controller software processes the camera feed to track the ball's position and adjusts the platform's angle using the servo motors to keep the ball centered.
 
-## Images
 
-![System Overview](/path/to/image1.png)
-*System overview with labeled components.*
-
-![Action Shot](/path/to/image2.png)
-*The PID Ball Balancing System in operation.*
 
